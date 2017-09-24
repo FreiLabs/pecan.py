@@ -4,7 +4,7 @@ import platform
 
 def kb():
 
-	""" This module checks for a specific "KB"s using the systeminfo built-in-command """
+	""" This module checks for a specific strings using the systeminfo built-in-command """
 
 	"""
 	Copyright (C) 2017  jmfgdev
@@ -27,8 +27,8 @@ def kb():
 
 def winversion():
 
-	""" 
-	This module returns the build of Windows that is currently running with platform, but it will 
+	"""
+	This module returns the build of Windows that is currently running with platform, but it will
 	probably work elsewhere.
 	"""
 
@@ -45,7 +45,7 @@ def winversion():
 	You should have received a copy of the GNU Affero General Public License
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	"""
-	
+
 	pltfrm = platform.platform()
 	print("The following is your windows platform...As determined by platform.platform")
 	print("-->  %s" % (pltfrm))
